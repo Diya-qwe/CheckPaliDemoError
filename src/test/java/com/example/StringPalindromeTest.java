@@ -31,9 +31,15 @@ class StringPalindromeTest {
     }
 
     @Test
-    void testMixedCaseString() {
+    void testMixedCaseString2() {
         assertTrue(StringPalindrome.isPalindrome("MadAm"));
     }
+
+    @Test
+    void testMixedCaseString() {
+        assertFalse(StringPalindrome.isPalindrome("MadAp"));
+    }
+
 
     @Test
     void testNullString() {

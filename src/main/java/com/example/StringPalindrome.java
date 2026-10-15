@@ -2,6 +2,7 @@ package com.example;
 
 public class StringPalindrome {
 
+
     public static boolean isPalindrome(String str) {
         if (str == null) {
             throw new IllegalArgumentException("String cannot be null");
