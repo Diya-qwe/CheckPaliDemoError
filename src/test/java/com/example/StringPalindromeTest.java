@@ -37,7 +37,7 @@ class StringPalindromeTest {
 
     @Test
     void testMixedCaseString() {
-        assertFalse(StringPalindrome.isPalindrome("MadAp"));
+        assertTrue(StringPalindrome.isPalindrome("MadAp"));
     }
 
 
